@@ -1,0 +1,22 @@
+ Averigua acerca de las denominadas “arrow functions” y callbacks en javascript. Guardalo en un archivo 
+
+ Arrow functions y callbacks son características importantes de JavaScript.
+
+*******************************************************************************
+1.- Las arrow functions son una forma abreviada de definir funciones en JavaScript, introducida en ES6. Se ven así:
+
+(parametros) => {
+// código a ejecutar
+}
+
+Por ejemplo:
+const suma = (a, b) => a + b;
+
+*******************************************************************************
+
+Los callbacks son funciones pasadas como argumentos a otras funciones y luego se invocan dentro de esas funciones. Son comúnmente utilizadas en JavaScript para la programación asíncrona.
+
+Por ejemplo:
+[1, 2, 3].forEach(num => console.log(num));
+
+Aquí, la función forEach toma una función de devolución de llamada como argumento y la invoca para cada elemento en el arreglo.
